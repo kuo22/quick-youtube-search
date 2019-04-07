@@ -1,0 +1,16 @@
+{
+    "name": "Selection Youtube Search",
+    "version": "1.0",
+    "description": "Searches the current selection on Youtube.",
+    "permissions": ["contextMenus"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "icons": {
+        "16": "images/youtube_16.png",
+        "48": "images/youtube_48.png",
+        "128": "images/youtube_128.png"
+    },
+    "manifest_version": 2
+}
